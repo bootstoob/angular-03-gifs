@@ -9,11 +9,11 @@ import { LazyImageComponent } from './components/lazy-image/lazy-image.component
     LazyImageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports:[
     SidebarComponent,
-    LazyImageComponent
+    LazyImageComponent,
   ]
 })
 export class SharedModule { }
